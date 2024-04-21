@@ -20,8 +20,8 @@ const guestRoutes = [
   },
   {
     icon: Rocket,
-    label: "Pathways",
-    href: "/pathways",
+    label: "Curriculum",
+    href: "/curriculum",
   },
   {
     icon: Sparkles,

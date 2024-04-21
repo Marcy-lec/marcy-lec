@@ -5,7 +5,7 @@ import Header from "./_components/header";
 import Stepped from "./_components/stepped";
 import Stats from "./_components/stats";
 import { Timeline } from "./_components/timeline";
-import { CarouselGroup } from "../pathways/_components/carousel";
+import { CarouselGroup } from "../curriculum/_components/carousel";
 
 export default async function Pathways() {
   const { userId } = auth();

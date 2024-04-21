@@ -18,14 +18,14 @@ export default function NavbarRoutes() {
 
   const isTeacherPage = pathname?.startsWith("/teacher");
   const isCoursePage = pathname?.includes("/courses");
-  const isPathwayPage = pathname?.startsWith("/pathways");
+  const isCurriculumPage = pathname?.startsWith("/curriculum");
   const isDashboard = pathname === "/";
 
   const { theme } = useTheme() 
 
   return (
     <>
-      {(isPathwayPage || isDashboard) && (
+      {(isCurriculumPage || isDashboard) && (
         <div className="hidden md:block">
           <SearchInput />
         </div>
